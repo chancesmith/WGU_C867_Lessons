@@ -1,4 +1,17 @@
+# Ignore all
+*
+.DS_Store
 
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore all files with extensions recursively
+!**/*.cpp
+
+# other .gitignore rules...
 
 # Prerequisites
 *.d
@@ -30,8 +43,5 @@
 
 # Executables
 *.exe
-*.
 *.out
 *.app
-
-3.7-Using-math-functions/Example-using-math
